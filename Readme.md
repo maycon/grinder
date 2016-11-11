@@ -8,7 +8,13 @@ System Requirements
 
 A Grinder Node requires a 32/64 bit Windows system and Ruby 2.0 (Ruby 1.9 is also supported but you wont be able to fuzz 64bit targets).
 
-A Grinder Server requires a web server with MySQL and PHP.
+A Grinder Server requires a web server with MySQL and PHP. You can use Docker to setup and start the enviroment using the following steps:
+
+* Install docker-compose
+```$ sudo -H pip install docker-compose```
+
+* Run Grinder Server using:
+```$ docker-compose up -d```
 
 Features
 ========
