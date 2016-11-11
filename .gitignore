@@ -43,3 +43,6 @@ server/nodes.php
 # JetBRAINS project directories
 server/.idea
 node/.idea
+
+# MySQL Data
+mysql/
