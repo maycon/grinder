@@ -10,7 +10,7 @@ A Grinder Node requires a 32/64 bit Windows system and Ruby 2.0 (Ruby 1.9 is als
 
 A Grinder Server requires a web server with MySQL and PHP. You can use Docker to setup and start the enviroment using the following steps:
 
-Install docker-compose
+Install docker-compose (considering you already have [Docker](https://docs.docker.com/) installed):
 
 ```$ sudo -H pip install docker-compose```
 
