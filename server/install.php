@@ -45,7 +45,7 @@
 			verified int(11) NOT NULL DEFAULT 0,
 			count int(11) NOT NULL DEFAULT 1,
 			owner_id int(11) NOT NULL DEFAULT 0,
-			notes text NOT NULL,
+			notes text,
 			log_data mediumblob NOT NULL,
 			crash_data mediumblob NOT NULL,
 			PRIMARY KEY (id),
